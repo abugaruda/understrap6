@@ -62,7 +62,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-replace": "^5.0.5",
     "autoprefixer": "^10.4.19",
-    "bootstrap": "~5.2.3",
+    "bootstrap": "5.3.9",
     "bootstrap6": "npm:bootstrap@6.0.0-alpha.1",
     "browser-sync": "^3.0.2",
     "browserslist": "^4.22.1",
