@@ -342,5 +342,17 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 				'after_title'   => '</h3>',
 			)
 		);
+
+		register_sidebar(
+			array(
+				'name'          => __( 'Colophon', 'understrap' ),
+				'id'            => 'colophon',
+				'description'   => __( 'Footer widgets displayed above the site information in a dynamic grid.', 'understrap' ),
+				'before_widget' => '<div id="%1$s" class="footer-widget %2$s dynamic-classes">',
+				'after_widget'  => '</div><!-- .footer-widget -->',
+				'before_title'  => '<h3 class="widget-title">',
+				'after_title'   => '</h3>',
+			)
+		);
 	}
 } // End of function_exists( 'understrap_widgets_init' ).
